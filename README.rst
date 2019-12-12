@@ -65,6 +65,7 @@ To interact with the APIs, the SDK needs to identify itself using an
 to register your application. Depending the API you plan to use, visit:
 
 - `OVH Europe <https://eu.api.ovh.com/createApp/>`_
+- `OVH US <https://api.ovhcloud.com/createApp/>`_
 - `OVH North-America <https://ca.api.ovh.com/createApp/>`_
 - `So you Start Europe <https://eu.api.soyoustart.com/createApp/>`_
 - `So you Start North America <https://ca.api.soyoustart.com/createApp/>`_
@@ -98,6 +99,7 @@ it looks like:
 Depending on the API you want to use, you may set the ``endpoint`` to:
 
 * ``ovh-eu`` for OVH Europe API
+* ``ovh-us`` for OVH US API
 * ``ovh-ca`` for OVH North-America API
 * ``soyoustart-eu`` for So you Start Europe API
 * ``soyoustart-ca`` for So you Start North America API
@@ -536,6 +538,14 @@ OVH Europe
 - **Create application credentials**: https://eu.api.ovh.com/createApp/
 - **Create script credentials** (all keys at once): https://eu.api.ovh.com/createToken/
 
+OVH US
+----------
+
+- **Documentation**: https://api.us.ovhcloud.com/
+- **Console**: https://api.us.ovhcloud.com/console/
+- **Create application credentials**: https://api.us.ovhcloud.com/createApp/
+- **Create script credentials** (all keys at once): https://api.us.ovhcloud.com/createToken/
+
 OVH North America
 -----------------
 
@@ -592,4 +602,3 @@ License
 =======
 
 3-Clause BSD
-
